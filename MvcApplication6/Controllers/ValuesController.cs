@@ -24,6 +24,7 @@ namespace MvcApplication6.Controllers
         // POST api/values
         public void Post([FromBody]string value)
         {
+            value = "";
         }
 
         // PUT api/values/5
